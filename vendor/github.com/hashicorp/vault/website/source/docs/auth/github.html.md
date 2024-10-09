@@ -147,7 +147,7 @@ in addition to any team policies.
 GitHub token can also be supplied from the env variable `VAULT_AUTH_GITHUB_TOKEN`.
 
 ```
-$ vault auth -method=github token=000000905b381e723b3d6a7d52f148a5d43c4b45
+$ vault login -method=github token=000000905b381e723b3d6a7d52f148a5d43c4b45
 Successfully authenticated! You are now logged in.
 The token below is already saved in the session. You do not
 need to "vault auth" again with the token.
